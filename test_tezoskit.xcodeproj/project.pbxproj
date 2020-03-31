@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2D5078F2433EE6E00540328 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D5078E2433EE6E00540328 /* AppDelegate.swift */; };
+		E2D507912433EE6E00540328 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D507902433EE6E00540328 /* SceneDelegate.swift */; };
+		E2D507932433EE6E00540328 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D507922433EE6E00540328 /* ContentView.swift */; };
+		E2D507952433EE7600540328 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2D507942433EE7600540328 /* Assets.xcassets */; };
+		E2D507982433EE7600540328 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2D507972433EE7600540328 /* Preview Assets.xcassets */; };
+		E2D5079B2433EE7600540328 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D507992433EE7600540328 /* LaunchScreen.storyboard */; };
+		E2D507A62433EE7700540328 /* test_tezoskitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D507A52433EE7700540328 /* test_tezoskitTests.swift */; };
+		E2D507B12433EE7700540328 /* test_tezoskitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D507B02433EE7700540328 /* test_tezoskitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2D507A22433EE7700540328 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2D507832433EE6E00540328 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2D5078A2433EE6E00540328;
+			remoteInfo = test_tezoskit;
+		};
+		E2D507AD2433EE7700540328 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2D507832433EE6E00540328 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2D5078A2433EE6E00540328;
+			remoteInfo = test_tezoskit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2D5078B2433EE6E00540328 /* test_tezoskit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_tezoskit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2D5078E2433EE6E00540328 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2D507902433EE6E00540328 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E2D507922433EE6E00540328 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E2D507942433EE7600540328 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2D507972433EE7600540328 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2D5079A2433EE7600540328 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2D5079C2433EE7700540328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2D507A12433EE7700540328 /* test_tezoskitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_tezoskitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2D507A52433EE7700540328 /* test_tezoskitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_tezoskitTests.swift; sourceTree = "<group>"; };
+		E2D507A72433EE7700540328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2D507AC2433EE7700540328 /* test_tezoskitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_tezoskitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2D507B02433EE7700540328 /* test_tezoskitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_tezoskitUITests.swift; sourceTree = "<group>"; };
+		E2D507B22433EE7700540328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2D507882433EE6E00540328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D5079E2433EE7700540328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D507A92433EE7700540328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2D507822433EE6E00540328 = {
+			isa = PBXGroup;
+			children = (
+				E2D5078D2433EE6E00540328 /* test_tezoskit */,
+				E2D507A42433EE7700540328 /* test_tezoskitTests */,
+				E2D507AF2433EE7700540328 /* test_tezoskitUITests */,
+				E2D5078C2433EE6E00540328 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2D5078C2433EE6E00540328 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2D5078B2433EE6E00540328 /* test_tezoskit.app */,
+				E2D507A12433EE7700540328 /* test_tezoskitTests.xctest */,
+				E2D507AC2433EE7700540328 /* test_tezoskitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2D5078D2433EE6E00540328 /* test_tezoskit */ = {
+			isa = PBXGroup;
+			children = (
+				E2D5078E2433EE6E00540328 /* AppDelegate.swift */,
+				E2D507902433EE6E00540328 /* SceneDelegate.swift */,
+				E2D507922433EE6E00540328 /* ContentView.swift */,
+				E2D507942433EE7600540328 /* Assets.xcassets */,
+				E2D507992433EE7600540328 /* LaunchScreen.storyboard */,
+				E2D5079C2433EE7700540328 /* Info.plist */,
+				E2D507962433EE7600540328 /* Preview Content */,
+			);
+			path = test_tezoskit;
+			sourceTree = "<group>";
+		};
+		E2D507962433EE7600540328 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E2D507972433EE7600540328 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E2D507A42433EE7700540328 /* test_tezoskitTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2D507A52433EE7700540328 /* test_tezoskitTests.swift */,
+				E2D507A72433EE7700540328 /* Info.plist */,
+			);
+			path = test_tezoskitTests;
+			sourceTree = "<group>";
+		};
+		E2D507AF2433EE7700540328 /* test_tezoskitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2D507B02433EE7700540328 /* test_tezoskitUITests.swift */,
+				E2D507B22433EE7700540328 /* Info.plist */,
+			);
+			path = test_tezoskitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2D5078A2433EE6E00540328 /* test_tezoskit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2D507B52433EE7700540328 /* Build configuration list for PBXNativeTarget "test_tezoskit" */;
+			buildPhases = (
+				E2D507872433EE6E00540328 /* Sources */,
+				E2D507882433EE6E00540328 /* Frameworks */,
+				E2D507892433EE6E00540328 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test_tezoskit;
+			productName = test_tezoskit;
+			productReference = E2D5078B2433EE6E00540328 /* test_tezoskit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2D507A02433EE7700540328 /* test_tezoskitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2D507B82433EE7700540328 /* Build configuration list for PBXNativeTarget "test_tezoskitTests" */;
+			buildPhases = (
+				E2D5079D2433EE7700540328 /* Sources */,
+				E2D5079E2433EE7700540328 /* Frameworks */,
+				E2D5079F2433EE7700540328 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2D507A32433EE7700540328 /* PBXTargetDependency */,
+			);
+			name = test_tezoskitTests;
+			productName = test_tezoskitTests;
+			productReference = E2D507A12433EE7700540328 /* test_tezoskitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2D507AB2433EE7700540328 /* test_tezoskitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2D507BB2433EE7700540328 /* Build configuration list for PBXNativeTarget "test_tezoskitUITests" */;
+			buildPhases = (
+				E2D507A82433EE7700540328 /* Sources */,
+				E2D507A92433EE7700540328 /* Frameworks */,
+				E2D507AA2433EE7700540328 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2D507AE2433EE7700540328 /* PBXTargetDependency */,
+			);
+			name = test_tezoskitUITests;
+			productName = test_tezoskitUITests;
+			productReference = E2D507AC2433EE7700540328 /* test_tezoskitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2D507832433EE6E00540328 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = voxelot;
+				TargetAttributes = {
+					E2D5078A2433EE6E00540328 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					E2D507A02433EE7700540328 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = E2D5078A2433EE6E00540328;
+					};
+					E2D507AB2433EE7700540328 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = E2D5078A2433EE6E00540328;
+					};
+				};
+			};
+			buildConfigurationList = E2D507862433EE6E00540328 /* Build configuration list for PBXProject "test_tezoskit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2D507822433EE6E00540328;
+			productRefGroup = E2D5078C2433EE6E00540328 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2D5078A2433EE6E00540328 /* test_tezoskit */,
+				E2D507A02433EE7700540328 /* test_tezoskitTests */,
+				E2D507AB2433EE7700540328 /* test_tezoskitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2D507892433EE6E00540328 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D5079B2433EE7600540328 /* LaunchScreen.storyboard in Resources */,
+				E2D507982433EE7600540328 /* Preview Assets.xcassets in Resources */,
+				E2D507952433EE7600540328 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D5079F2433EE7700540328 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D507AA2433EE7700540328 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2D507872433EE6E00540328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D5078F2433EE6E00540328 /* AppDelegate.swift in Sources */,
+				E2D507912433EE6E00540328 /* SceneDelegate.swift in Sources */,
+				E2D507932433EE6E00540328 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D5079D2433EE7700540328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D507A62433EE7700540328 /* test_tezoskitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D507A82433EE7700540328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D507B12433EE7700540328 /* test_tezoskitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2D507A32433EE7700540328 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2D5078A2433EE6E00540328 /* test_tezoskit */;
+			targetProxy = E2D507A22433EE7700540328 /* PBXContainerItemProxy */;
+		};
+		E2D507AE2433EE7700540328 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2D5078A2433EE6E00540328 /* test_tezoskit */;
+			targetProxy = E2D507AD2433EE7700540328 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2D507992433EE7600540328 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2D5079A2433EE7600540328 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2D507B32433EE7700540328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2D507B42433EE7700540328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2D507B62433EE7700540328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"test_tezoskit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = test_tezoskit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "none.test-tezoskit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2D507B72433EE7700540328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"test_tezoskit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = test_tezoskit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "none.test-tezoskit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E2D507B92433EE7700540328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = test_tezoskitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "none.test-tezoskitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test_tezoskit.app/test_tezoskit";
+			};
+			name = Debug;
+		};
+		E2D507BA2433EE7700540328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = test_tezoskitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "none.test-tezoskitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test_tezoskit.app/test_tezoskit";
+			};
+			name = Release;
+		};
+		E2D507BC2433EE7700540328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = test_tezoskitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "none.test-tezoskitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = test_tezoskit;
+			};
+			name = Debug;
+		};
+		E2D507BD2433EE7700540328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = test_tezoskitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "none.test-tezoskitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = test_tezoskit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2D507862433EE6E00540328 /* Build configuration list for PBXProject "test_tezoskit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2D507B32433EE7700540328 /* Debug */,
+				E2D507B42433EE7700540328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2D507B52433EE7700540328 /* Build configuration list for PBXNativeTarget "test_tezoskit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2D507B62433EE7700540328 /* Debug */,
+				E2D507B72433EE7700540328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2D507B82433EE7700540328 /* Build configuration list for PBXNativeTarget "test_tezoskitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2D507B92433EE7700540328 /* Debug */,
+				E2D507BA2433EE7700540328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2D507BB2433EE7700540328 /* Build configuration list for PBXNativeTarget "test_tezoskitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2D507BC2433EE7700540328 /* Debug */,
+				E2D507BD2433EE7700540328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2D507832433EE6E00540328 /* Project object */;
+}
