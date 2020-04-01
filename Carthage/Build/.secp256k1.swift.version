@@ -1,0 +1,21 @@
+{
+  "Mac" : [
+    {
+      "name" : "secp256k1",
+      "hash" : "5716dce35618d210e31515839f5ffb24cd9e3a94b140d6360c14eac9bf9a38b4"
+    }
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "8.0.6",
+  "iOS" : [
+    {
+      "name" : "secp256k1",
+      "hash" : "048a3f7bada9c0670b18416d6a7cbbd45bf0edb61643fd69e40f34280cb6d13c"
+    }
+  ]
+}

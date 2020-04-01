@@ -1,0 +1,23 @@
+{
+  "Mac" : [
+    {
+      "name" : "MnemonicKit",
+      "hash" : "4febd2809590d7d0f97065107144282862a0446b661367649acc2b5a2af8f6b2",
+      "swiftToolchainVersion" : "5.2 (swiftlang-1103.0.32.1 clang-1103.0.32.29)"
+    }
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "1.3.10",
+  "iOS" : [
+    {
+      "name" : "MnemonicKit",
+      "hash" : "f7d62c577d9e788025cea3e4bbc31ea0563e0c459996419514b1d7dd920f27ad",
+      "swiftToolchainVersion" : "5.2 (swiftlang-1103.0.32.1 clang-1103.0.32.29)"
+    }
+  ]
+}

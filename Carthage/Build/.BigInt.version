@@ -1,0 +1,31 @@
+{
+  "Mac" : [
+    {
+      "name" : "BigInt",
+      "hash" : "5bbabebd506dfbfa18aa0d5cb67490fa1e2770c980cf02d5a03d8b3e32e102b7",
+      "swiftToolchainVersion" : "5.2 (swiftlang-1103.0.32.1 clang-1103.0.32.29)"
+    }
+  ],
+  "watchOS" : [
+    {
+      "name" : "BigInt",
+      "hash" : "d8c42fdce66f87bac0de40d9cbee734c2a3d448a69d4dcf4868b62f31733e6af",
+      "swiftToolchainVersion" : "5.2 (swiftlang-1103.0.32.1 clang-1103.0.32.29)"
+    }
+  ],
+  "tvOS" : [
+    {
+      "name" : "BigInt",
+      "hash" : "a3b9853ae87c33e0a4b6fed84d0953531a84f4e1bc2389b5b1a092e9256cb27e",
+      "swiftToolchainVersion" : "5.2 (swiftlang-1103.0.32.1 clang-1103.0.32.29)"
+    }
+  ],
+  "commitish" : "v3.1.0",
+  "iOS" : [
+    {
+      "name" : "BigInt",
+      "hash" : "a26f01fae77092f7ab60e383008de63e9748afabcf3ebf648310a6182d91614f",
+      "swiftToolchainVersion" : "5.2 (swiftlang-1103.0.32.1 clang-1103.0.32.29)"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+framework module MnemonicKit {
+  header "MnemonicKit-Swift.h"
+  requires objc
+}

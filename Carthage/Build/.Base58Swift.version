@@ -1,0 +1,23 @@
+{
+  "Mac" : [
+    {
+      "name" : "Base58Swift",
+      "hash" : "61eac382a33a65782b033c92fe7840c79d7b32d97ae29a9725f80321e41e6d73",
+      "swiftToolchainVersion" : "5.2 (swiftlang-1103.0.32.1 clang-1103.0.32.29)"
+    }
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "2.1.9",
+  "iOS" : [
+    {
+      "name" : "Base58Swift",
+      "hash" : "a719e3b50a8f026b59e5860e5f3d89ea7fea43b97bd93399704650f268acbd48",
+      "swiftToolchainVersion" : "5.2 (swiftlang-1103.0.32.1 clang-1103.0.32.29)"
+    }
+  ]
+}

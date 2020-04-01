@@ -1,0 +1,32 @@
+{
+  "Mac" : [
+    {
+      "name" : "Sodium",
+      "hash" : "a7176d0ae4a90418cbef64b86ef1630cce1f9dfa066c827898dea49a401aa04e",
+      "swiftToolchainVersion" : "5.2 (swiftlang-1103.0.32.1 clang-1103.0.32.29)"
+    }
+  ],
+  "watchOS" : [
+    {
+      "name" : "Sodium",
+      "hash" : "9a20f8435262f13683dba1f7681b039d6d2911edd6c792f76254d120b0beb6b6",
+      "swiftToolchainVersion" : "5.2 (swiftlang-1103.0.32.1 clang-1103.0.32.29)"
+    }
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "0.8.0",
+  "iOS" : [
+    {
+      "name" : "Sodium",
+      "hash" : "b66c402bd517c44a4954b2a4fd844a4650d066fbb24682982f4fe7bc0862cd13",
+      "swiftToolchainVersion" : "5.2 (swiftlang-1103.0.32.1 clang-1103.0.32.29)"
+    },
+    {
+      "name" : "Sodium",
+      "hash" : "b66c402bd517c44a4954b2a4fd844a4650d066fbb24682982f4fe7bc0862cd13",
+      "swiftToolchainVersion" : "5.2 (swiftlang-1103.0.32.1 clang-1103.0.32.29)"
+    }
+  ]
+}

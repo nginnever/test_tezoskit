@@ -1,0 +1,23 @@
+{
+  "Mac" : [
+    {
+      "name" : "TezosKit",
+      "hash" : "6d440b200fbbac03c59ef3688108c63e848e2660da2e4e3783e9e24494ee72a8",
+      "swiftToolchainVersion" : "5.2 (swiftlang-1103.0.32.1 clang-1103.0.32.29)"
+    }
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "4.4.2",
+  "iOS" : [
+    {
+      "name" : "TezosKit",
+      "hash" : "5c344e0e76cbef23b5673c721ddb1b47e77ee437685a4099cb888477397f07c6",
+      "swiftToolchainVersion" : "5.2 (swiftlang-1103.0.32.1 clang-1103.0.32.29)"
+    }
+  ]
+}

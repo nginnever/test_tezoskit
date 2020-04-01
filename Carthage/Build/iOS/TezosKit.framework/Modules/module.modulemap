@@ -1,0 +1,4 @@
+framework module TezosKit {
+  header "TezosKit-Swift.h"
+  requires objc
+}
